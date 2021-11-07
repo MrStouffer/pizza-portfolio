@@ -1,0 +1,124 @@
+/*
+Author: Maxwell Stouffer
+File Name: styles.css
+Date: 10/17/2021
+*/
+/*CSS Reset*/
+body, header, nav, main, footer, img, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+}
+
+img {
+}
+body {
+  
+}
+/*Header style rules*/
+header {
+  text-decoration: none;
+
+}
+header h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
+
+header h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-decoration: none;
+}
+/*Nav style rules*/
+nav {
+  list-style: none;
+  text-decoration: none;
+}
+
+nav li a{
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a:hover{
+  font-size: larger;
+}
+/*Main style rules*/
+main {
+  font-size: 15px;
+  font-weight: lighter;
+}
+/*Footer style rules*/
+footer {
+
+
+}
+
+#Chicago {
+  border: 20px solid #000;
+  border-radius: 5px 10px;
+}
+
+#chicago h2 {
+  font-size: 16px;
+}
+
+#Chicago dd {
+  font-size: 12px;
+  font-weight: normal;
+
+}
+
+#Chicago dt {
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.action {
+
+}
+
+.round {
+  align-content: center;
+}
+
+.email-link {
+  text-decoration: underline;
+}
+
+.map {
+  width: 90%;
+  
+}
+
+/* Media query for Desktop viewport */
+@media screen and (min-width: 769px), print {
+/* Nav rules for desktop */  
+  nav a:hover {
+    font-size: smaller;
+    color: red;
+  }
+}
+
+/* Tablet Media Query */
+@media screen and (min-width: 550px), print {
+/* Nav rules for tablet */
+  nav a:hover {
+    font-size: xx-large;
+    color: green;
+  }
+}
+
+
+
+
